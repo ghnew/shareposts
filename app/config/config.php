@@ -1,15 +1,15 @@
 <?php
 // DB parameters
 define('DB_HOST', 'localhost');
-define('DB_USER', 'YOUR_USERNAME');
-define('DB_PASS', 'YOUR_PASSWORD');
-define('DB_NAME', 'YOUR_DBNAME');
+define('DB_USER', 'root');
+define('DB_PASS', '123456');
+define('DB_NAME', 'shareposts');
 
 // App root
 define('APPROOT', dirname(dirname(__FILE__)));
 
 // URL root
-define('URLROOT', 'YOUR_URL');
+define('URLROOT', 'http://localhost/shareposts');
 
 // Site name
-define('SITENAME', 'YOUR_SITENAME');
+define('SITENAME', 'SharePosts');
