@@ -9,7 +9,7 @@ define('DB_NAME', 'shareposts');
 define('APPROOT', dirname(dirname(__FILE__)));
 
 // URL root
-define('URLROOT', 'http://localhost/shareposts');
+define('URLROOT', 'http://localhost:8082/shareposts');
 
 // Site name
 define('SITENAME', 'SharePosts');
