@@ -1,4 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-3">
+<div class="container">
   <a class="navbar-brand" href="<?php echo URLROOT; ?>">
     <?php echo SITENAME; ?>
   </a>
@@ -13,7 +14,7 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="<?php echo URLROOT; ?>">
             Home
         </a>
@@ -25,7 +26,7 @@
       </li>
     </ul>
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="<?php echo URLROOT; ?>/users/register">
             Register
         </a>
@@ -37,4 +38,5 @@
       </li>
     </ul>
   </div>
+</div>
 </nav>
