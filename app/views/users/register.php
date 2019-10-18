@@ -38,9 +38,9 @@
                     <div class="form-group">
                         <label for="confirm_password">Confirm password: <sup>*</sup></label>
                         <input type="password" 
-                                name="password" 
-                                class="form-control form-control-lg <? echo (!empty($data['password_confirm_err'])) ? 'is-invalid' : ''; ?>" 
-                                value="<?php echo $data['password_confirm']; ?>">
+                                name="confirm_password" 
+                                class="form-control form-control-lg <? echo (!empty($data['confirm_password_err'])) ? 'is-invalid' : ''; ?>" 
+                                value="<?php echo $data['confirm_password']; ?>">
                         <span class="invalid-feedback">
                             <?php echo $data['confirm_password_err']; ?>
                         </span>
