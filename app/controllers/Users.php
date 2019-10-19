@@ -126,7 +126,7 @@ class Users extends Controller
                 $data['email_err'] = 'No user found';
             }
 
-            // Make shure errors are empty
+            // Make sure errors are empty
             if (empty($data['email_err']) && empty($data['password_err'])) {
                 // Validated
                 // Check and set logged in user
